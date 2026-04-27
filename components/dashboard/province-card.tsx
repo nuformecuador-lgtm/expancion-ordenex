@@ -19,7 +19,10 @@ export function ProvinceCard({ p }: Props) {
   const badge = GAM_BADGE[p.gam];
 
   return (
-    <div className="surface overflow-hidden">
+    <div
+      id={`prov-${p.provincia}`}
+      className="surface overflow-hidden transition-all rounded-xl"
+    >
       <button
         type="button"
         onClick={() => setOpen((o) => !o)}

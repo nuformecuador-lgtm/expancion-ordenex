@@ -2,9 +2,10 @@ import type { ProvinciaStat } from '@/lib/types';
 
 interface Props {
   provincias: ProvinciaStat[];
+  onPick?: (provinciaName: string) => void;
 }
 
-export function FocusZones({ provincias }: Props) {
+export function FocusZones({ provincias, onPick }: Props) {
   if (provincias.length === 0) {
     return (
       <div className="surface p-6 text-sm text-[var(--text-muted)]">
@@ -25,17 +26,31 @@ export function FocusZones({ provincias }: Props) {
       </div>
       <div className="grid grid-cols-1 gap-4 min-[900px]:grid-cols-2">
         {provincias.map((p) => (
-          <FocusCard key={p.provincia} p={p} />
+          <FocusCard key={p.provincia} p={p} onPick={onPick} />
         ))}
       </div>
     </div>
   );
 }
 
-function FocusCard({ p }: { p: ProvinciaStat }) {
+function FocusCard({
+  p,
+  onPick,
+}: {
+  p: ProvinciaStat;
+  onPick?: (n: string) => void;
+}) {
   const top = p.cantones.slice(0, 5);
+  const interactive = !!onPick;
   return (
-    <div className="surface relative overflow-hidden p-5 md:p-6">
+    <div
+      onClick={interactive ? () => onPick!(p.provincia) : undefined}
+      className={`surface relative overflow-hidden p-5 md:p-6 transition-all ${
+        interactive
+          ? 'cursor-pointer hover:border-[var(--border-strong)] hover:-translate-y-0.5'
+          : ''
+      }`}
+    >
       {p.ruta && (
         <div className="absolute right-0 top-0 bg-[var(--blue)]/15 px-3 py-1 font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--blue)]">
           {p.ruta}
