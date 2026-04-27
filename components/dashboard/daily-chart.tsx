@@ -55,7 +55,8 @@ export function DailyChart({ daily }: Props) {
               onMouseEnter={() => setHover(i)}
               onMouseLeave={() => setHover(null)}
               onTouchStart={() => setHover(i)}
-              className="flex flex-1 cursor-pointer flex-col items-center gap-1.5"
+              onTouchEnd={() => setTimeout(() => setHover(null), 1200)}
+              className="flex min-w-[36px] flex-1 cursor-pointer flex-col items-center gap-1.5 touch-manipulation"
             >
               <div className="relative flex h-full w-full flex-col justify-end">
                 {sinStockH > 0 && (

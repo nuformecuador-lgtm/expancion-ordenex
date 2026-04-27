@@ -21,7 +21,7 @@ export function ProvinceCard({ p }: Props) {
   return (
     <div
       id={`prov-${p.provincia}`}
-      className="surface overflow-hidden transition-all rounded-xl"
+      className="surface overflow-hidden transition-all rounded-xl scroll-mt-6"
     >
       <button
         type="button"

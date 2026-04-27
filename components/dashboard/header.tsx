@@ -24,7 +24,7 @@ export function Header({ generatedAt, rangeFrom, rangeTo }: Props) {
 
   return (
     <header className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-      <div>
+      <div className="order-2 md:order-1">
         <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-[var(--text-muted)]">
           Nuform · Operación COD
         </p>
@@ -41,7 +41,9 @@ export function Header({ generatedAt, rangeFrom, rangeTo }: Props) {
           {range ? <> semana <span className="font-mono text-[var(--text)]">{range}</span></> : ' últimos 7 días'}.
         </p>
       </div>
-      <LivePill label={`Actualizado · ${formatCR(generatedAt)}`} />
+      <div className="order-1 md:order-2">
+        <LivePill label={`Actualizado · ${formatCR(generatedAt)}`} />
+      </div>
     </header>
   );
 }

@@ -79,7 +79,7 @@ export function DashboardClient({ data }: Props) {
   }
 
   return (
-    <main className="mx-auto w-full max-w-[1280px] px-5 py-8 md:px-8 md:py-12">
+    <main className="mx-auto w-full max-w-[1280px] px-4 py-6 md:px-8 md:py-12">
       <Header
         generatedAt={data.generatedAt}
         rangeFrom={data.rangeFrom}
@@ -168,7 +168,7 @@ function FilterBar({
               key={f.id}
               type="button"
               onClick={() => setFilter(f.id)}
-              className="font-mono text-[10px] uppercase tracking-[0.15em] rounded-full px-3 py-1.5 transition-all min-h-[36px]"
+              className="font-mono text-[10px] uppercase tracking-[0.15em] rounded-full px-3 py-1.5 transition-all min-h-[44px]"
               style={{
                 background: active ? 'var(--accent)' : 'rgba(255,255,255,0.04)',
                 color: active ? '#0a0f0d' : 'var(--text)',
@@ -198,7 +198,7 @@ function FilterBar({
         <button
           type="button"
           onClick={() => setSort(sort === 'volumen' ? 'nombre' : 'volumen')}
-          className="font-mono text-[10px] uppercase tracking-[0.15em] rounded-md border border-[var(--border)] px-3 py-2 text-[var(--text-muted)] hover:text-[var(--text)] hover:border-[var(--border-strong)] transition-colors min-h-[36px]"
+          className="font-mono text-[10px] uppercase tracking-[0.15em] rounded-md border border-[var(--border)] px-3 py-2 text-[var(--text-muted)] hover:text-[var(--text)] hover:border-[var(--border-strong)] transition-colors min-h-[44px]"
           title="Cambiar orden"
         >
           ↕ {sort}

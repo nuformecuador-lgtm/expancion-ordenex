@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Bricolage_Grotesque, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 
@@ -21,6 +21,13 @@ export const metadata: Metadata = {
   description:
     'Operación COD Costa Rica · dashboard semanal de expansión GAM (Nuform/Danyel)',
   robots: { index: false, follow: false },
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: '#0a0f0d',
 };
 
 export default function RootLayout({
