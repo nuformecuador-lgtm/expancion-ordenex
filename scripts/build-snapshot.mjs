@@ -115,9 +115,13 @@ for (let offset = 0; ; offset += PAGE) {
     )
     .eq('pais', PAIS_CR)
     .in('estado', ESTADOS)
-    .gte('created_at', rangeFrom)
-    .lte('created_at', rangeTo)
-    .order('created_at', { ascending: false })
+    // Filtrar por hora_confirmacion: representa cuándo el estado se movió
+    // a confirmado/sin-stock, alineado con lo que el dueño cuenta como
+    // "esta semana". `created_at` infla porque las filas se re-insertan
+    // en cada re-sync del CRM.
+    .gte('hora_confirmacion', rangeFrom)
+    .lte('hora_confirmacion', rangeTo)
+    .order('hora_confirmacion', { ascending: false })
     .range(offset, offset + PAGE - 1);
 
   if (error) {
@@ -189,13 +193,13 @@ for (const r of all) {
     estadoCount.set(r.estado, (estadoCount.get(r.estado) ?? 0) + 1);
   }
 
-  const dk = (r.created_at ?? '').slice(0, 10);
+  // Bucket diario también por hora_confirmacion (consistente con el filtro).
+  const dk = (r.hora_confirmacion ?? r.created_at ?? '').slice(0, 10);
   if (dk && dailyMap.has(dk)) {
     const b = dailyMap.get(dk);
     if (conf) b.confirmadas++;
     if (sin) b.sinStock++;
   } else if (dk) {
-    // si cae fuera por TZ, lo agregamos igual
     dailyMap.set(dk, {
       fecha: dk,
       confirmadas: conf ? 1 : 0,

@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-04-27T07:18:34.647Z",
+  "generatedAt": "2026-04-27T07:28:52.891Z",
   "rangeFrom": "2026-04-20T00:00:00.000Z",
   "rangeTo": "2026-04-26T23:59:59.999Z",
   "totals": {
-    "confirmadas": 3774,
-    "sinStock": 41,
-    "total": 3815,
+    "confirmadas": 1830,
+    "sinStock": 32,
+    "total": 1862,
     "provinciasActivas": 7
   },
   "cobertura": {
-    "cubre": 1757,
-    "parcial": 753,
-    "expandir": 1161
+    "cubre": 826,
+    "parcial": 377,
+    "expandir": 593
   },
   "provincias": [
     {
@@ -19,162 +19,114 @@
       "gam": "cubre",
       "hub": "GAM (cubre)",
       "ruta": null,
-      "confirmadas": 1035,
-      "sinStock": 20,
-      "total": 1055,
+      "confirmadas": 494,
+      "sinStock": 14,
+      "total": 508,
       "cantones": [
         {
           "canton": "San José",
-          "confirmadas": 260,
-          "sinStock": 7,
-          "total": 267
-        },
-        {
-          "canton": "Desamparados",
-          "confirmadas": 98,
-          "sinStock": 2,
-          "total": 100
-        },
-        {
-          "canton": "Goicoechea",
-          "confirmadas": 94,
-          "sinStock": 3,
-          "total": 97
+          "confirmadas": 138,
+          "sinStock": 5,
+          "total": 143
         },
         {
           "canton": "Pérez Zeledón",
-          "confirmadas": 93,
-          "sinStock": 2,
-          "total": 95
-        },
-        {
-          "canton": "Escazú",
-          "confirmadas": 69,
-          "sinStock": 0,
-          "total": 69
-        },
-        {
-          "canton": "Santa Ana",
-          "confirmadas": 56,
-          "sinStock": 2,
-          "total": 58
-        },
-        {
-          "canton": "Montes de Oca",
-          "confirmadas": 57,
-          "sinStock": 0,
-          "total": 57
-        },
-        {
-          "canton": "Curridabat",
-          "confirmadas": 52,
-          "sinStock": 0,
-          "total": 52
-        },
-        {
-          "canton": "Vazquez de Coronado",
-          "confirmadas": 50,
+          "confirmadas": 54,
           "sinStock": 1,
-          "total": 51
+          "total": 55
         },
         {
-          "canton": "Moravia",
-          "confirmadas": 49,
-          "sinStock": 0,
-          "total": 49
-        },
-        {
-          "canton": "Tibás",
-          "confirmadas": 44,
+          "canton": "Desamparados",
+          "confirmadas": 46,
           "sinStock": 1,
+          "total": 47
+        },
+        {
+          "canton": "Goicoechea",
+          "confirmadas": 42,
+          "sinStock": 3,
           "total": 45
         },
         {
-          "canton": "Aserrí",
-          "confirmadas": 26,
-          "sinStock": 1,
-          "total": 27
+          "canton": "Escazú",
+          "confirmadas": 31,
+          "sinStock": 0,
+          "total": 31
         },
         {
-          "canton": "Alajuelita",
-          "confirmadas": 26,
-          "sinStock": 0,
+          "canton": "Tibás",
+          "confirmadas": 25,
+          "sinStock": 1,
           "total": 26
         },
         {
-          "canton": "Tarrazú",
-          "confirmadas": 16,
-          "sinStock": 0,
-          "total": 16
+          "canton": "Santa Ana",
+          "confirmadas": 24,
+          "sinStock": 1,
+          "total": 25
         },
         {
-          "canton": "Puriscal",
-          "confirmadas": 15,
+          "canton": "Montes de Oca",
+          "confirmadas": 24,
           "sinStock": 0,
-          "total": 15
+          "total": 24
+        },
+        {
+          "canton": "Vazquez de Coronado",
+          "confirmadas": 22,
+          "sinStock": 1,
+          "total": 23
+        },
+        {
+          "canton": "Moravia",
+          "confirmadas": 22,
+          "sinStock": 0,
+          "total": 22
+        },
+        {
+          "canton": "Curridabat",
+          "confirmadas": 20,
+          "sinStock": 0,
+          "total": 20
+        },
+        {
+          "canton": "Aserrí",
+          "confirmadas": 10,
+          "sinStock": 1,
+          "total": 11
         },
         {
           "canton": "Mora",
-          "confirmadas": 13,
-          "sinStock": 1,
-          "total": 14
+          "confirmadas": 10,
+          "sinStock": 0,
+          "total": 10
+        },
+        {
+          "canton": "Alajuelita",
+          "confirmadas": 9,
+          "sinStock": 0,
+          "total": 9
+        },
+        {
+          "canton": "Tarrazú",
+          "confirmadas": 8,
+          "sinStock": 0,
+          "total": 8
+        },
+        {
+          "canton": "Puriscal",
+          "confirmadas": 7,
+          "sinStock": 0,
+          "total": 7
         },
         {
           "canton": "León Cortés Castro",
-          "confirmadas": 4,
-          "sinStock": 0,
-          "total": 4
-        },
-        {
-          "canton": "Dota",
-          "confirmadas": 3,
-          "sinStock": 0,
-          "total": 3
-        },
-        {
-          "canton": "Acosta",
-          "confirmadas": 3,
-          "sinStock": 0,
-          "total": 3
-        },
-        {
-          "canton": "San Rafael Arriba de Desamparados",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "San José de la Montaña",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Turrubares",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-San Jose",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Escazu",
           "confirmadas": 1,
           "sinStock": 0,
           "total": 1
         },
         {
           "canton": "-Perez Zeledon",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Aserri",
           "confirmadas": 1,
           "sinStock": 0,
           "total": 1
@@ -186,108 +138,102 @@
       "gam": "parcial",
       "hub": "Alajuela ciudad",
       "ruta": null,
-      "confirmadas": 745,
-      "sinStock": 8,
-      "total": 753,
+      "confirmadas": 371,
+      "sinStock": 6,
+      "total": 377,
       "cantones": [
         {
           "canton": "Alajuela",
-          "confirmadas": 259,
-          "sinStock": 1,
-          "total": 260
+          "confirmadas": 143,
+          "sinStock": 0,
+          "total": 143
         },
         {
           "canton": "San Carlos",
-          "confirmadas": 140,
+          "confirmadas": 71,
           "sinStock": 1,
-          "total": 141
-        },
-        {
-          "canton": "Grecia",
-          "confirmadas": 61,
-          "sinStock": 2,
-          "total": 63
+          "total": 72
         },
         {
           "canton": "San Ramón",
-          "confirmadas": 59,
+          "confirmadas": 32,
           "sinStock": 2,
-          "total": 61
+          "total": 34
         },
         {
-          "canton": "Palmares",
+          "canton": "Grecia",
           "confirmadas": 29,
           "sinStock": 1,
           "total": 30
         },
         {
-          "canton": "Naranjo",
-          "confirmadas": 30,
-          "sinStock": 0,
-          "total": 30
-        },
-        {
-          "canton": "Poás",
-          "confirmadas": 29,
-          "sinStock": 0,
-          "total": 29
-        },
-        {
           "canton": "Atenas",
-          "confirmadas": 29,
-          "sinStock": 0,
-          "total": 29
-        },
-        {
-          "canton": "Orotina",
-          "confirmadas": 21,
-          "sinStock": 0,
-          "total": 21
-        },
-        {
-          "canton": "Upala",
-          "confirmadas": 16,
-          "sinStock": 0,
-          "total": 16
-        },
-        {
-          "canton": "Zarcero",
-          "confirmadas": 15,
-          "sinStock": 0,
-          "total": 15
-        },
-        {
-          "canton": "Los Chiles",
           "confirmadas": 14,
           "sinStock": 0,
           "total": 14
         },
         {
-          "canton": "Río Cuarto",
-          "confirmadas": 10,
+          "canton": "Poás",
+          "confirmadas": 13,
+          "sinStock": 0,
+          "total": 13
+        },
+        {
+          "canton": "Naranjo",
+          "confirmadas": 12,
+          "sinStock": 0,
+          "total": 12
+        },
+        {
+          "canton": "Palmares",
+          "confirmadas": 9,
           "sinStock": 1,
-          "total": 11
-        },
-        {
-          "canton": "Guatuso",
-          "confirmadas": 11,
-          "sinStock": 0,
-          "total": 11
-        },
-        {
-          "canton": "Sarchí",
-          "confirmadas": 10,
-          "sinStock": 0,
           "total": 10
         },
         {
-          "canton": "San Mateo",
+          "canton": "Upala",
+          "confirmadas": 9,
+          "sinStock": 0,
+          "total": 9
+        },
+        {
+          "canton": "Río Cuarto",
+          "confirmadas": 6,
+          "sinStock": 1,
+          "total": 7
+        },
+        {
+          "canton": "Guatuso",
           "confirmadas": 7,
           "sinStock": 0,
           "total": 7
         },
         {
-          "canton": "-San Ramon",
+          "canton": "Orotina",
+          "confirmadas": 6,
+          "sinStock": 0,
+          "total": 6
+        },
+        {
+          "canton": "Sarchí",
+          "confirmadas": 6,
+          "sinStock": 0,
+          "total": 6
+        },
+        {
+          "canton": "Zarcero",
+          "confirmadas": 6,
+          "sinStock": 0,
+          "total": 6
+        },
+        {
+          "canton": "Los Chiles",
+          "confirmadas": 4,
+          "sinStock": 0,
+          "total": 4
+        },
+        {
+          "canton": "San Mateo",
           "confirmadas": 2,
           "sinStock": 0,
           "total": 2
@@ -299,13 +245,7 @@
           "total": 1
         },
         {
-          "canton": "-POas",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-Alajuela",
+          "canton": "-San Ramon",
           "confirmadas": 1,
           "sinStock": 0,
           "total": 1
@@ -317,102 +257,78 @@
       "gam": "expandir",
       "hub": "Liberia / Santa Cruz",
       "ruta": "Ruta R6 + R7",
-      "confirmadas": 514,
-      "sinStock": 2,
-      "total": 516,
+      "confirmadas": 287,
+      "sinStock": 1,
+      "total": 288,
       "cantones": [
         {
           "canton": "Liberia",
-          "confirmadas": 121,
-          "sinStock": 0,
-          "total": 121
+          "confirmadas": 69,
+          "sinStock": 1,
+          "total": 70
         },
         {
           "canton": "Santa Cruz",
-          "confirmadas": 110,
+          "confirmadas": 64,
           "sinStock": 0,
-          "total": 110
+          "total": 64
         },
         {
           "canton": "Nicoya",
-          "confirmadas": 79,
+          "confirmadas": 47,
           "sinStock": 0,
-          "total": 79
+          "total": 47
         },
         {
           "canton": "Carrillo",
-          "confirmadas": 71,
-          "sinStock": 1,
-          "total": 72
+          "confirmadas": 36,
+          "sinStock": 0,
+          "total": 36
         },
         {
           "canton": "Abangares",
-          "confirmadas": 32,
+          "confirmadas": 19,
           "sinStock": 0,
-          "total": 32
+          "total": 19
         },
         {
           "canton": "Cañas",
-          "confirmadas": 25,
+          "confirmadas": 14,
           "sinStock": 0,
-          "total": 25
+          "total": 14
         },
         {
           "canton": "Tilarán",
-          "confirmadas": 22,
-          "sinStock": 1,
-          "total": 23
-        },
-        {
-          "canton": "Bagaces",
-          "confirmadas": 22,
+          "confirmadas": 12,
           "sinStock": 0,
-          "total": 22
+          "total": 12
         },
         {
           "canton": "La Cruz",
-          "confirmadas": 10,
-          "sinStock": 0,
-          "total": 10
-        },
-        {
-          "canton": "Nandayure",
           "confirmadas": 9,
           "sinStock": 0,
           "total": 9
         },
         {
-          "canton": "Hojancha",
+          "canton": "Bagaces",
           "confirmadas": 8,
           "sinStock": 0,
           "total": 8
         },
         {
-          "canton": "-Cañas",
-          "confirmadas": 1,
+          "canton": "Nandayure",
+          "confirmadas": 5,
           "sinStock": 0,
-          "total": 1
+          "total": 5
         },
         {
-          "canton": "-Hojancha",
-          "confirmadas": 1,
+          "canton": "Hojancha",
+          "confirmadas": 3,
           "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-Nicoya",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
+          "total": 3
         },
         {
           "canton": "Sardinal de Carrillo",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-Santa Cruz",
           "confirmadas": 1,
           "sinStock": 0,
           "total": 1
@@ -424,75 +340,69 @@
       "gam": "cubre",
       "hub": "Heredia",
       "ruta": null,
-      "confirmadas": 406,
-      "sinStock": 4,
-      "total": 410,
+      "confirmadas": 187,
+      "sinStock": 3,
+      "total": 190,
       "cantones": [
         {
           "canton": "Heredia",
-          "confirmadas": 113,
+          "confirmadas": 52,
           "sinStock": 2,
-          "total": 115
+          "total": 54
         },
         {
           "canton": "San Rafael",
-          "confirmadas": 50,
-          "sinStock": 2,
-          "total": 52
+          "confirmadas": 25,
+          "sinStock": 1,
+          "total": 26
         },
         {
           "canton": "Santo Domingo",
-          "confirmadas": 52,
-          "sinStock": 0,
-          "total": 52
-        },
-        {
-          "canton": "Barva",
-          "confirmadas": 37,
-          "sinStock": 0,
-          "total": 37
-        },
-        {
-          "canton": "Belén",
-          "confirmadas": 32,
-          "sinStock": 0,
-          "total": 32
-        },
-        {
-          "canton": "San Pablo",
-          "confirmadas": 32,
-          "sinStock": 0,
-          "total": 32
-        },
-        {
-          "canton": "Sarapiquí",
-          "confirmadas": 28,
-          "sinStock": 0,
-          "total": 28
-        },
-        {
-          "canton": "Flores",
           "confirmadas": 25,
           "sinStock": 0,
           "total": 25
         },
         {
-          "canton": "Santa Bárbara",
-          "confirmadas": 20,
+          "canton": "Barva",
+          "confirmadas": 16,
           "sinStock": 0,
-          "total": 20
+          "total": 16
+        },
+        {
+          "canton": "San Pablo",
+          "confirmadas": 15,
+          "sinStock": 0,
+          "total": 15
+        },
+        {
+          "canton": "Belén",
+          "confirmadas": 15,
+          "sinStock": 0,
+          "total": 15
+        },
+        {
+          "canton": "Flores",
+          "confirmadas": 13,
+          "sinStock": 0,
+          "total": 13
+        },
+        {
+          "canton": "Santa Bárbara",
+          "confirmadas": 11,
+          "sinStock": 0,
+          "total": 11
+        },
+        {
+          "canton": "Sarapiquí",
+          "confirmadas": 8,
+          "sinStock": 0,
+          "total": 8
         },
         {
           "canton": "San Isidro",
-          "confirmadas": 14,
+          "confirmadas": 5,
           "sinStock": 0,
-          "total": 14
-        },
-        {
-          "canton": "-heredia",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
+          "total": 5
         },
         {
           "canton": "-sarapiqui",
@@ -513,96 +423,131 @@
       "gam": "expandir",
       "hub": "Puntarenas",
       "ruta": "Ruta R2",
-      "confirmadas": 368,
-      "sinStock": 1,
-      "total": 369,
+      "confirmadas": 165,
+      "sinStock": 3,
+      "total": 168,
       "cantones": [
         {
           "canton": "Puntarenas",
-          "confirmadas": 114,
-          "sinStock": 0,
-          "total": 114
+          "confirmadas": 49,
+          "sinStock": 1,
+          "total": 50
         },
         {
           "canton": "Quepos",
-          "confirmadas": 46,
-          "sinStock": 0,
-          "total": 46
-        },
-        {
-          "canton": "Garabito",
-          "confirmadas": 38,
-          "sinStock": 0,
-          "total": 38
-        },
-        {
-          "canton": "Esparza",
-          "confirmadas": 28,
-          "sinStock": 1,
-          "total": 29
-        },
-        {
-          "canton": "Coto Brus",
-          "confirmadas": 28,
-          "sinStock": 0,
-          "total": 28
-        },
-        {
-          "canton": "Golfito",
-          "confirmadas": 27,
-          "sinStock": 0,
-          "total": 27
-        },
-        {
-          "canton": "Osa",
-          "confirmadas": 26,
-          "sinStock": 0,
-          "total": 26
-        },
-        {
-          "canton": "Buenos Aires",
           "confirmadas": 21,
           "sinStock": 0,
           "total": 21
         },
         {
-          "canton": "Corredores",
-          "confirmadas": 17,
+          "canton": "Golfito",
+          "confirmadas": 16,
           "sinStock": 0,
-          "total": 17
+          "total": 16
         },
         {
-          "canton": "Montes de Oro",
+          "canton": "Esparza",
+          "confirmadas": 14,
+          "sinStock": 1,
+          "total": 15
+        },
+        {
+          "canton": "Coto Brus",
+          "confirmadas": 14,
+          "sinStock": 0,
+          "total": 14
+        },
+        {
+          "canton": "Osa",
+          "confirmadas": 14,
+          "sinStock": 0,
+          "total": 14
+        },
+        {
+          "canton": "Garabito",
+          "confirmadas": 13,
+          "sinStock": 0,
+          "total": 13
+        },
+        {
+          "canton": "Corredores",
+          "confirmadas": 10,
+          "sinStock": 0,
+          "total": 10
+        },
+        {
+          "canton": "Buenos Aires",
           "confirmadas": 8,
           "sinStock": 0,
           "total": 8
         },
         {
           "canton": "Parrita",
-          "confirmadas": 7,
-          "sinStock": 0,
-          "total": 7
+          "confirmadas": 3,
+          "sinStock": 1,
+          "total": 4
         },
         {
           "canton": "Monteverde",
-          "confirmadas": 5,
+          "confirmadas": 2,
           "sinStock": 0,
-          "total": 5
+          "total": 2
         },
         {
-          "canton": "-Buenos Aires",
+          "canton": "Montes de Oro",
           "confirmadas": 1,
           "sinStock": 0,
           "total": 1
-        },
+        }
+      ]
+    },
+    {
+      "provincia": "Limón",
+      "gam": "expandir",
+      "hub": "Limón centro",
+      "ruta": "Ruta R5",
+      "confirmadas": 136,
+      "sinStock": 1,
+      "total": 137,
+      "cantones": [
         {
-          "canton": "-Osa",
-          "confirmadas": 1,
+          "canton": "Limón",
+          "confirmadas": 53,
           "sinStock": 0,
-          "total": 1
+          "total": 53
         },
         {
-          "canton": "-Quepos",
+          "canton": "Pococí",
+          "confirmadas": 30,
+          "sinStock": 1,
+          "total": 31
+        },
+        {
+          "canton": "Siquirres",
+          "confirmadas": 18,
+          "sinStock": 0,
+          "total": 18
+        },
+        {
+          "canton": "Talamanca",
+          "confirmadas": 15,
+          "sinStock": 0,
+          "total": 15
+        },
+        {
+          "canton": "Guácimo",
+          "confirmadas": 10,
+          "sinStock": 0,
+          "total": 10
+        },
+        {
+          "canton": "Matina",
+          "confirmadas": 9,
+          "sinStock": 0,
+          "total": 9
+        },
+        {
+          "canton": "-Talamanca",
           "confirmadas": 1,
           "sinStock": 0,
           "total": 1
@@ -614,45 +559,45 @@
       "gam": "cubre",
       "hub": "Cartago",
       "ruta": null,
-      "confirmadas": 291,
-      "sinStock": 1,
-      "total": 292,
+      "confirmadas": 128,
+      "sinStock": 0,
+      "total": 128,
       "cantones": [
         {
           "canton": "Cartago",
-          "confirmadas": 102,
+          "confirmadas": 43,
           "sinStock": 0,
-          "total": 102
+          "total": 43
         },
         {
           "canton": "La Unión",
-          "confirmadas": 61,
-          "sinStock": 0,
-          "total": 61
-        },
-        {
-          "canton": "Paraíso",
           "confirmadas": 34,
           "sinStock": 0,
           "total": 34
         },
         {
-          "canton": "Turrialba",
-          "confirmadas": 32,
+          "canton": "El Guarco",
+          "confirmadas": 20,
           "sinStock": 0,
-          "total": 32
+          "total": 20
         },
         {
-          "canton": "El Guarco",
-          "confirmadas": 32,
+          "canton": "Paraíso",
+          "confirmadas": 12,
           "sinStock": 0,
-          "total": 32
+          "total": 12
+        },
+        {
+          "canton": "Turrialba",
+          "confirmadas": 8,
+          "sinStock": 0,
+          "total": 8
         },
         {
           "canton": "Oreamuno",
-          "confirmadas": 24,
-          "sinStock": 1,
-          "total": 25
+          "confirmadas": 7,
+          "sinStock": 0,
+          "total": 7
         },
         {
           "canton": "Alvarado",
@@ -667,78 +612,7 @@
           "total": 1
         },
         {
-          "canton": "-cartago",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-Turrialba",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
           "canton": "-oreamuno",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        }
-      ]
-    },
-    {
-      "provincia": "Limón",
-      "gam": "expandir",
-      "hub": "Limón centro",
-      "ruta": "Ruta R5",
-      "confirmadas": 275,
-      "sinStock": 1,
-      "total": 276,
-      "cantones": [
-        {
-          "canton": "Limón",
-          "confirmadas": 95,
-          "sinStock": 0,
-          "total": 95
-        },
-        {
-          "canton": "Pococí",
-          "confirmadas": 66,
-          "sinStock": 1,
-          "total": 67
-        },
-        {
-          "canton": "Talamanca",
-          "confirmadas": 39,
-          "sinStock": 0,
-          "total": 39
-        },
-        {
-          "canton": "Siquirres",
-          "confirmadas": 36,
-          "sinStock": 0,
-          "total": 36
-        },
-        {
-          "canton": "Guácimo",
-          "confirmadas": 18,
-          "sinStock": 0,
-          "total": 18
-        },
-        {
-          "canton": "Matina",
-          "confirmadas": 18,
-          "sinStock": 0,
-          "total": 18
-        },
-        {
-          "canton": "-Pococi",
-          "confirmadas": 2,
-          "sinStock": 0,
-          "total": 2
-        },
-        {
-          "canton": "-Talamanca",
           "confirmadas": 1,
           "sinStock": 0,
           "total": 1
@@ -750,24 +624,18 @@
       "gam": "no-aplica",
       "hub": "—",
       "ruta": null,
-      "confirmadas": 140,
+      "confirmadas": 62,
       "sinStock": 4,
-      "total": 144,
+      "total": 66,
       "cantones": [
         {
           "canton": "-",
-          "confirmadas": 106,
+          "confirmadas": 55,
           "sinStock": 4,
-          "total": 110
+          "total": 59
         },
         {
-          "canton": "—",
-          "confirmadas": 8,
-          "sinStock": 0,
-          "total": 8
-        },
-        {
-          "canton": "Ciudad Colón",
+          "canton": "Bajo Rodriguez",
           "confirmadas": 1,
           "sinStock": 0,
           "total": 1
@@ -779,115 +647,7 @@
           "total": 1
         },
         {
-          "canton": "San Lorenzo",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Paso Canoas",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Guadalupe",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Palmar Norte",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-San Juaquin",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Barranca",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-Mercedes Norte",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Chomes",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Sabanilla",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-guasima",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "San Diego",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-Sixsaola",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Cobano",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Salitrillos",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Aguas Zarcas",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Agua Caliente",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-Pamares",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-Filadelfia",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-pavas",
+          "canton": "Ciudad Colón",
           "confirmadas": 1,
           "sinStock": 0,
           "total": 1
@@ -900,12 +660,6 @@
         },
         {
           "canton": "Quebrada Ganado",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "Bajo Rodriguez",
           "confirmadas": 1,
           "sinStock": 0,
           "total": 1
@@ -931,102 +685,78 @@
       "gam": "expandir",
       "hub": "Liberia / Santa Cruz",
       "ruta": "Ruta R6 + R7",
-      "confirmadas": 514,
-      "sinStock": 2,
-      "total": 516,
+      "confirmadas": 287,
+      "sinStock": 1,
+      "total": 288,
       "cantones": [
         {
           "canton": "Liberia",
-          "confirmadas": 121,
-          "sinStock": 0,
-          "total": 121
+          "confirmadas": 69,
+          "sinStock": 1,
+          "total": 70
         },
         {
           "canton": "Santa Cruz",
-          "confirmadas": 110,
+          "confirmadas": 64,
           "sinStock": 0,
-          "total": 110
+          "total": 64
         },
         {
           "canton": "Nicoya",
-          "confirmadas": 79,
+          "confirmadas": 47,
           "sinStock": 0,
-          "total": 79
+          "total": 47
         },
         {
           "canton": "Carrillo",
-          "confirmadas": 71,
-          "sinStock": 1,
-          "total": 72
+          "confirmadas": 36,
+          "sinStock": 0,
+          "total": 36
         },
         {
           "canton": "Abangares",
-          "confirmadas": 32,
+          "confirmadas": 19,
           "sinStock": 0,
-          "total": 32
+          "total": 19
         },
         {
           "canton": "Cañas",
-          "confirmadas": 25,
+          "confirmadas": 14,
           "sinStock": 0,
-          "total": 25
+          "total": 14
         },
         {
           "canton": "Tilarán",
-          "confirmadas": 22,
-          "sinStock": 1,
-          "total": 23
-        },
-        {
-          "canton": "Bagaces",
-          "confirmadas": 22,
+          "confirmadas": 12,
           "sinStock": 0,
-          "total": 22
+          "total": 12
         },
         {
           "canton": "La Cruz",
-          "confirmadas": 10,
-          "sinStock": 0,
-          "total": 10
-        },
-        {
-          "canton": "Nandayure",
           "confirmadas": 9,
           "sinStock": 0,
           "total": 9
         },
         {
-          "canton": "Hojancha",
+          "canton": "Bagaces",
           "confirmadas": 8,
           "sinStock": 0,
           "total": 8
         },
         {
-          "canton": "-Cañas",
-          "confirmadas": 1,
+          "canton": "Nandayure",
+          "confirmadas": 5,
           "sinStock": 0,
-          "total": 1
+          "total": 5
         },
         {
-          "canton": "-Hojancha",
-          "confirmadas": 1,
+          "canton": "Hojancha",
+          "confirmadas": 3,
           "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-Nicoya",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
+          "total": 3
         },
         {
           "canton": "Sardinal de Carrillo",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-Santa Cruz",
           "confirmadas": 1,
           "sinStock": 0,
           "total": 1
@@ -1038,96 +768,78 @@
       "gam": "expandir",
       "hub": "Puntarenas",
       "ruta": "Ruta R2",
-      "confirmadas": 368,
-      "sinStock": 1,
-      "total": 369,
+      "confirmadas": 165,
+      "sinStock": 3,
+      "total": 168,
       "cantones": [
         {
           "canton": "Puntarenas",
-          "confirmadas": 114,
-          "sinStock": 0,
-          "total": 114
+          "confirmadas": 49,
+          "sinStock": 1,
+          "total": 50
         },
         {
           "canton": "Quepos",
-          "confirmadas": 46,
-          "sinStock": 0,
-          "total": 46
-        },
-        {
-          "canton": "Garabito",
-          "confirmadas": 38,
-          "sinStock": 0,
-          "total": 38
-        },
-        {
-          "canton": "Esparza",
-          "confirmadas": 28,
-          "sinStock": 1,
-          "total": 29
-        },
-        {
-          "canton": "Coto Brus",
-          "confirmadas": 28,
-          "sinStock": 0,
-          "total": 28
-        },
-        {
-          "canton": "Golfito",
-          "confirmadas": 27,
-          "sinStock": 0,
-          "total": 27
-        },
-        {
-          "canton": "Osa",
-          "confirmadas": 26,
-          "sinStock": 0,
-          "total": 26
-        },
-        {
-          "canton": "Buenos Aires",
           "confirmadas": 21,
           "sinStock": 0,
           "total": 21
         },
         {
-          "canton": "Corredores",
-          "confirmadas": 17,
+          "canton": "Golfito",
+          "confirmadas": 16,
           "sinStock": 0,
-          "total": 17
+          "total": 16
         },
         {
-          "canton": "Montes de Oro",
+          "canton": "Esparza",
+          "confirmadas": 14,
+          "sinStock": 1,
+          "total": 15
+        },
+        {
+          "canton": "Coto Brus",
+          "confirmadas": 14,
+          "sinStock": 0,
+          "total": 14
+        },
+        {
+          "canton": "Osa",
+          "confirmadas": 14,
+          "sinStock": 0,
+          "total": 14
+        },
+        {
+          "canton": "Garabito",
+          "confirmadas": 13,
+          "sinStock": 0,
+          "total": 13
+        },
+        {
+          "canton": "Corredores",
+          "confirmadas": 10,
+          "sinStock": 0,
+          "total": 10
+        },
+        {
+          "canton": "Buenos Aires",
           "confirmadas": 8,
           "sinStock": 0,
           "total": 8
         },
         {
           "canton": "Parrita",
-          "confirmadas": 7,
-          "sinStock": 0,
-          "total": 7
+          "confirmadas": 3,
+          "sinStock": 1,
+          "total": 4
         },
         {
           "canton": "Monteverde",
-          "confirmadas": 5,
+          "confirmadas": 2,
           "sinStock": 0,
-          "total": 5
+          "total": 2
         },
         {
-          "canton": "-Buenos Aires",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-Osa",
-          "confirmadas": 1,
-          "sinStock": 0,
-          "total": 1
-        },
-        {
-          "canton": "-Quepos",
+          "canton": "Montes de Oro",
           "confirmadas": 1,
           "sinStock": 0,
           "total": 1
@@ -1139,51 +851,45 @@
       "gam": "expandir",
       "hub": "Limón centro",
       "ruta": "Ruta R5",
-      "confirmadas": 275,
+      "confirmadas": 136,
       "sinStock": 1,
-      "total": 276,
+      "total": 137,
       "cantones": [
         {
           "canton": "Limón",
-          "confirmadas": 95,
+          "confirmadas": 53,
           "sinStock": 0,
-          "total": 95
+          "total": 53
         },
         {
           "canton": "Pococí",
-          "confirmadas": 66,
+          "confirmadas": 30,
           "sinStock": 1,
-          "total": 67
-        },
-        {
-          "canton": "Talamanca",
-          "confirmadas": 39,
-          "sinStock": 0,
-          "total": 39
+          "total": 31
         },
         {
           "canton": "Siquirres",
-          "confirmadas": 36,
+          "confirmadas": 18,
           "sinStock": 0,
-          "total": 36
+          "total": 18
+        },
+        {
+          "canton": "Talamanca",
+          "confirmadas": 15,
+          "sinStock": 0,
+          "total": 15
         },
         {
           "canton": "Guácimo",
-          "confirmadas": 18,
+          "confirmadas": 10,
           "sinStock": 0,
-          "total": 18
+          "total": 10
         },
         {
           "canton": "Matina",
-          "confirmadas": 18,
+          "confirmadas": 9,
           "sinStock": 0,
-          "total": 18
-        },
-        {
-          "canton": "-Pococi",
-          "confirmadas": 2,
-          "sinStock": 0,
-          "total": 2
+          "total": 9
         },
         {
           "canton": "-Talamanca",
@@ -1197,60 +903,64 @@
   "estadoBreakdown": [
     {
       "estado": "CONFIRMADO EFFICHAT",
-      "count": 2965
-    },
-    {
-      "estado": "CONFIRMADO LLAMADA",
-      "count": 449
+      "count": 1409
     },
     {
       "estado": "CARRITO CONFIRMADO",
-      "count": 360
+      "count": 227
+    },
+    {
+      "estado": "CONFIRMADO LLAMADA",
+      "count": 193
     },
     {
       "estado": "PRODUCTO SIN STOCK",
-      "count": 41
+      "count": 32
+    },
+    {
+      "estado": "CONFIRMADO WHATSAPP",
+      "count": 1
     }
   ],
   "daily": [
     {
       "fecha": "2026-04-20",
-      "confirmadas": 421,
-      "sinStock": 10
+      "confirmadas": 296,
+      "sinStock": 3
     },
     {
       "fecha": "2026-04-21",
-      "confirmadas": 258,
-      "sinStock": 5
+      "confirmadas": 272,
+      "sinStock": 4
     },
     {
       "fecha": "2026-04-22",
-      "confirmadas": 224,
-      "sinStock": 5
-    },
-    {
-      "fecha": "2026-04-23",
-      "confirmadas": 232,
-      "sinStock": 6
-    },
-    {
-      "fecha": "2026-04-24",
-      "confirmadas": 2216,
-      "sinStock": 13
-    },
-    {
-      "fecha": "2026-04-25",
-      "confirmadas": 200,
+      "confirmadas": 197,
       "sinStock": 2
     },
     {
+      "fecha": "2026-04-23",
+      "confirmadas": 213,
+      "sinStock": 8
+    },
+    {
+      "fecha": "2026-04-24",
+      "confirmadas": 346,
+      "sinStock": 10
+    },
+    {
+      "fecha": "2026-04-25",
+      "confirmadas": 166,
+      "sinStock": 3
+    },
+    {
       "fecha": "2026-04-26",
-      "confirmadas": 223,
-      "sinStock": 0
+      "confirmadas": 340,
+      "sinStock": 2
     }
   ],
-  "revenueConfirmadas": 61845972.85000004,
+  "revenueConfirmadas": 30013229.370000023,
   "warnings": [
-    "144 orden(es) con cantón no reconocido — revisar limpieza de `ciudad` en CRM."
+    "66 orden(es) con cantón no reconocido — revisar limpieza de `ciudad` en CRM."
   ]
 }

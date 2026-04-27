@@ -48,9 +48,12 @@ export async function fetchOrdersCR({ days = RANGE_DAYS }: FetchParams = {}): Pr
     .select(SELECT_COLS)
     .eq('pais', PAIS_CR)
     .in('estado', ESTADOS_RELEVANTES)
-    .gte('created_at', rangeFrom)
-    .lte('created_at', rangeTo)
-    .order('created_at', { ascending: false })
+    // Usar hora_confirmacion: alineado con lo que el negocio cuenta como
+    // "esta semana". created_at infla por re-syncs del CRM (verificado:
+    // 3774 vs 1830 reales para semana 20-26 abr).
+    .gte('hora_confirmacion', rangeFrom)
+    .lte('hora_confirmacion', rangeTo)
+    .order('hora_confirmacion', { ascending: false })
     .limit(50000);
 
   if (error) {
